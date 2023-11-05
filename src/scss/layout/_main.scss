@@ -1,0 +1,185 @@
+.post {
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.link {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.returnBtn {
+    all: unset;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    right: 10px;
+    display: none;
+    padding: 1px 3px;
+    cursor: pointer;
+    background-color: #7C8BDC;
+    color: white;
+    font-size: 12px;
+}
+
+@media (max-width: 815px) {
+    .returnBtn {
+        border: none;
+        top: unset;
+        right: unset;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+    }
+}
+
+
+// views
+
+.noteTitle {
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.noteImage {
+    width: 75%;
+    margin: 15px 0px;
+}
+
+.codeTitle {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.codeLog {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.commitMade {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+///// new
+
+.tab {
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.tabTitle {
+    cursor: pointer;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.taskLink {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tabType {
+    width: 50px;
+    font-weight: 500;
+}
+
+.tabDate {
+    width: 50px;
+    font-weight: 500;
+}
+
+.codeActivity {
+    text-underline-offset: 1px;
+    display: block;
+    font-size: 12px;
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.codeActivity:visited {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    display: block;
+    font-size: 12px;
+    color: blue;
+    font-weight: 500;
+}
+
+.learningPost {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.resourcesTitle {
+    font-size: 12px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.referencesDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.referenceNode {
+    font-size: 12px;
+    margin-bottom: 7.5px;
+    color: blue;
+    font-weight: 600;
+    font-weight: 500;
+}
+
+.referenceNode:last-child {
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lessonViewHeader {
+    width: fit-content;
+}
+
+.lessonViewHeaderTitle {
+    font-weight: 500;
+}
+
+.learningPost {
+    font-weight: 300;
+}
+
+.exampleViewHeaderDate {
+    font-weight: 500;
+}
+
+.taskDescription {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+
+.tabImg {
+    height: 12px;
+}
+
+.github-wrapper {
+    display: flex;
+    align-items: end;
+}
